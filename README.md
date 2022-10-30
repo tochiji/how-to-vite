@@ -20,6 +20,13 @@
 - index.htmlのタイトル置換方法の確認
   - これはViteの都合でまだ少し面倒なようなのでスキップ
   - https://github.com/vitejs/vite/issues/3105
+- eslintの設定
+  - `npm init @eslint/config`
+- prettierの設定
+  - `npm install --save-dev prettier`
+  - `.prettierrc` の作成
+- ImportのSort
+  - `@trivago/prettier-plugin-sort-imports`
 
 ## 感想
 速い。便利。今後SPAならViteを使う。
