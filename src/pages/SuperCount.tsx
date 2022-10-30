@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import "./SuperCount.scss";
+import "./SuperCount.scss"
+import { useState } from "react"
+import { Link } from "react-router-dom"
 
-function SuperCount() {
-  const [count, setCount] = useState(0);
+function SuperCount(): JSX.Element {
+  const [count, setCount] = useState(0)
 
   return (
     <div className="SuperCount">
@@ -17,7 +17,7 @@ function SuperCount() {
       <div className="margin-30" />
       <Link to="/">👉 Normal Count</Link>
     </div>
-  );
+  )
 }
 
-export default SuperCount;
+export default SuperCount

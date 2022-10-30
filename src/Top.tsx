@@ -1,18 +1,18 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import "./Top.scss";
+import "./Top.scss"
+import reactLogo from "./assets/react.svg"
+import { useState } from "react"
+import { Link } from "react-router-dom"
 
-function Top() {
-  const [count, setCount] = useState(0);
+function Top(): JSX.Element {
+  const [count, setCount] = useState(0)
 
   return (
     <div className="Top">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
+        <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
@@ -36,7 +36,7 @@ function Top() {
         <p>env.SSR = {import.meta.env.SSR ? "true" : "false"}</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Top;
+export default Top
